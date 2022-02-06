@@ -1,6 +1,8 @@
 package za.ac.cput.StudentAccount;
-
-
+//This is a test class for objects
+//StudentTest.java
+//Written by Chuma Nxazonke
+//Date: 06/02/2022
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
