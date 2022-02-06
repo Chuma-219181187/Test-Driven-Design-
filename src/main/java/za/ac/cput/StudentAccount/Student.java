@@ -1,5 +1,8 @@
 package za.ac.cput.StudentAccount;
-
+//This is a worker class
+//Student.java class
+//Written by Chuma Nxazonke
+//Date: 05/02/2022
 public class Student {
 
     private String name;
