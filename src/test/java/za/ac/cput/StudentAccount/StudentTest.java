@@ -1,7 +1,7 @@
 package za.ac.cput.StudentAccount;
 //This is a test class for objects
 //StudentTest.java
-//Written by Chuma Nxazonke
+//Written by Chuma Nxazonke and Ishmail
 //Date: 06/02/2022
 
 import org.junit.jupiter.api.BeforeEach;
@@ -17,6 +17,9 @@ class StudentTest {
 
     private Student student;
     private Student studentAccount1;
+    private Student surname1;
+    private Student surname2;
+    private Student surname3;
 
     private Student studentAccount2;
     private Student studentAccount3;
@@ -28,12 +31,17 @@ class StudentTest {
         studentAccount2 = new Student();
         studentAccount3 = studentAccount1;
 
+        surname1 = new Student();
+        surname2 = new Student();
+        surname3 = surname1;
+
     }
 
     //Here we want to test for object identity
     @Test
     void testIdentity(){
     assertSame(studentAccount1, studentAccount3);
+    assertSame(surname1, surname1);
 
     }
 
@@ -42,8 +50,10 @@ class StudentTest {
     void testEquality (){
 
     assertEquals(studentAccount1, studentAccount3);
+    assertEquals(surname1, surname3);
 
     }
+
 
     //This method will fail if you enter the wrong value
     @Test

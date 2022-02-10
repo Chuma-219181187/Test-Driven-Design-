@@ -1,7 +1,7 @@
 package za.ac.cput.StudentAccount;
 //This is a worker class
 //Student.java class
-//Written by Chuma Nxazonke
+//Written by Ishmail Mgwena
 //Date: 05/02/2022
 public class Student {
 
@@ -42,6 +42,11 @@ public class Student {
 
         return a + b;
 
+    }
+
+    public String displayStudentSurname (String surname1, String surname2) {
+
+        return surname1 + surname2;
     }
 
 }
